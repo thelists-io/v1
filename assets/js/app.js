@@ -13,7 +13,7 @@ var Utils = app.Utils;
         $('#nav').affix({
             offset: {
                 top: $('#nav').offset().top,
-                bottom: ($('footer').outerHeight(true) + $('.meta').outerHeight(true)) + 120
+                bottom: ($('footer').outerHeight(true) + $('.footer').outerHeight(true)) + 120
             }
         });
     })

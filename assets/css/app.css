@@ -357,38 +357,28 @@ a:focus {
 /** footer */
 
 .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    border-top: 3px solid #fcda05;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #888
 }
 
 .footer a {
-    color: #79A8A9;
-    font-size: 18px;
-    text-transform: capitalize;
+    color: #8d9aa5
 }
 
 .footer a:hover {
-    color: #79A8A9;
+    color: #000;
 }
 
-.footer .svg {
-    width: 60px;
+.footer hr {
+    border-color: #e2e5e8
 }
 
-.footer h2 {
+.footer dt {
+    padding-bottom: 10px;
     color: #79a8a9;
-    text-transform: uppercase;
-    font-size: 20px
-}
-
-.footer input[type='email'] {
-    background-color: #f4f7f7;
-    border: #f4f7f7;
-    width: 100%
-}
-
-.footer input::-moz-placeholder {
-    color: #999 !important
 }
 
 
@@ -516,37 +506,6 @@ a:focus {
 .listDetails .sidebar input {
     border: 1px solid #999;
     width: 192px !important
-}
-
-
-/** meta */
-
-.meta {
-    border-top: 3px solid #fcda05;
-    background-color: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #888
-}
-
-.meta a {
-    text-transform: capitalize;
-    color: #8d9aa5
-}
-
-.meta a:hover {
-    color: #000;
-}
-
-.meta hr {
-    border-color: #e2e5e8
-}
-
-.meta dt {
-    padding-bottom: 10px;
-    text-transform: capitalize;
-    color: #79a8a9;
-    font-family: 'Janna-LT-W20-Regular'
 }
 
 
