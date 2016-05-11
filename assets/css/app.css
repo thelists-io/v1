@@ -779,15 +779,16 @@ padding-top: 0
 
 
 
-.team {
+.contributors {
     padding-top: 80px;
     padding-bottom: 80px;
+    text-align: center;
 
 }
-.team h2 {
+.contributors h2 {
     text-transform: capitalize;
 }
-.team .heading:after {
+.contributors .heading:after {
     background: #E2D9DB;
     content: "";
     display: block;
@@ -795,51 +796,24 @@ padding-top: 0
     margin: 5px auto;
     width: 60px;
 }
-.team .row-secondary {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.contributors .row-primary {
+    padding-bottom: 40px;
 }
-.team h6 {
+.contributors h6 {
     text-transform: uppercase;
     word-spacing: 5px;
     padding: 10px 0 0;
 }
-.team img {
+.contributors img {
     border: 1px solid #fff;
     padding: 1px;
     opacity: 8;
     cursor: pointer;
 }
-.team img:hover {
+.contributors img:hover {
     border-color: #636363;
     opacity: 1
 }
-.team .tab-pane {
-    border: 0px double #F6F6F6;
-    text-align: center;
-    padding: 20px;
-    _background-color: #F6F6F6
-}
-.team .tab-pane h3 {
-    text-transform: uppercase;
-    word-spacing: 6px
-}
-.team .tab-pane .heading:after {
-    background: #E2D9DB;
-    content: "";
-    display: block;
-    height: 2px;
-    margin: 5px auto;
-    width: 160px;
-}
-.team .tab-pane p {
-    font-family: 11px;
-    font-family: 'Janna-LT-W20-Regular', serif;
-    color: #999
-}
-.team .tab-pane a {
-    color: #64C8A4
-}
-.team .tab-pane a:hover {
-    color: #000;
+.contributors .item {
+margin-bottom: 30px
 }
