@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 text-center helper-xs-mt2">
-                <h2>about us</h2>
+                <h2>حول الموقع</h2>
             </div>
         </div>
     </div>
@@ -16,21 +16,22 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-8">
-                <h3>Capture what’s on your mind</h3>
-                <p>
-                    This was made mobile-first, so although it's not in the App Store it supports touch gestures like swiping, dragging and tapping, Keep works on your phone, tablet and computer. Everything you add to Keep syncs across your devices so your important stuff is always with you. This was made mobile-first, so although it's not in the App Store it supports touch gestures like swiping, dragging and tapping, Keep works on your phone, tablet and computer. Everything you add to Keep syncs across your devices so your important stuff is always with you.
-                </p>
-                <p>
-                    This was made mobile-first, so although it's not in the App Store it supports touch gestures like swiping, dragging and tapping, Keep works on your phone, tablet and computer. Everything you add to Keep syncs across your devices so your important stuff is always with you. This was made mobile-first, so although it's not in the App Store it supports touch gestures like swiping, dragging and tapping, Keep works on your phone, tablet and computer. Everything you add to Keep syncs across your devices so your important stuff is always with you.
-                </p>
-                <p>
-                    This was made mobile-first, so although it's not in the App Store it supports touch gestures like swiping, dragging and tapping, Keep works on your phone, tablet and computer. Everything you add to Keep syncs across your devices so your important stuff is always with you.
-                </p>
+                <h3>لماذا القوائم العربية</h3>
+    <p>
+     تعرف البرمجة بأنها عملية كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب أو أي جهاز آخر مثل قارئات أقراص الدي في دي أو أجهزة استقبال الصوت والصورة في نظم الاتصالات الحديثة، لتوجيه هذا الجهاز وإعلامه بكيفية التعامل مع البيانات أو كيفية تنفيذ سلسلة من الأعمال المطلوبة تسمى خوارزمية.</p>
 
+     <p>
+
+وتتبع عملية البرمجة قواعد خاصة باللغة التي اختارها المبرمج. وكل لغة برمجة لها خصائصها التي تميزها عن الأخرى وتجعلها مناسبة بدرجات متفاوتة لكل نوع من أنواع البرامج وحسب المهمة المطلوبة من هذا البرنامج. كما أن اللغات البرمجية أيضا لها خصائص مشتركة وحدود مشتركة بحكم أن كل هذه اللغات صممت للتعامل مع الحاسوب. وتتطور لغات البرمجة (السوفتوير Software) بتطور عتاد الحاسوب المرئي (الهاردوير Hardware). فعندما ابتكر الحاسوب في الأربعينيات والخمسينيات من القرن الماضي (بعد أجهزة الحساب الكهربائية في العشرينات) - وكان الكمبيوتر يعمل بأعداد كبيرة من الصمامات الإلكترونية - كانت لغة البرمجة معقدة هي الأخرى، حتي أنها كانت عبارة عن سلسلة من الأعداد لا يدخلها إلا الصفر 0 والواحد 1 وذلك لأن الحاسب يفهم حالتين فقط وجود التيار 1 أو عدم وجوده 0، وكان ذلك صعبا على المبرمجين. ولكن بابتكار الترانزيستور صغر حجم الحاسوب كثيرا وزادت إمكانياته، واستطاع المختصون في نفس الوقت أن يبتكروا لغات أسهل للاستخدام، وأصبحت لغات البرمجة مفهومة إلى حد بعيد للمختصين. ولا يزال التطوير والتسهيل جاريا وتسمى هذه اللغات سهلة التعامل بالنسبة للمبرمجين باللغات عالية المستوى.
+</p>
+
+<p>
+برمجة الحاسوب: هي عملية كتابة، اختبار، تصحيح للأخطاء وتطوير للشيفرة المصدرية لبرنامج حاسوبي يقوم بها الإنسان، تهدف البرمجة إلى إنشاء برامج تقوم بتطبيق وتنفيذ خوارزميات لها سلوك معين بمعنى أن لها وظيفة محددة مسبقا ومتوقعة النتائج. تتم هذه العملية باستخدام إحدى لغات البرمجة. الهدف من البرمجة هو إنشاء برنامج حيث ينفذ عمليات محددة أو يظهر سلوك مطلوب محدد. بشكل عام البرمجة عملية تستلزم معرفة في مجالات مختلفة منها معرفة بالرياضيات والمنطق والخوارزميات.
+</p>
             </div>
             <div class="col-xs-12 col-md-4 helper-xs-mt2">
                 <figure>
-                    <img src="assets/img/about/01.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="<?php echo base_url() ?>assets/img/about/01.jpg" alt="" class="img-responsive img-thumbnail">
                 </figure>
             </div>
         </div>
