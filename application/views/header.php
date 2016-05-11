@@ -5,32 +5,39 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=works">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Project Name -->
+
+
         <title> Lists.io </title>
+
         <!-- Bootstrap -->
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
         <!-- Icons -->
         <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
         <link href="/assets/css/open-iconic-bootstrap.min.css" rel="stylesheet">
         <link href="/assets/css/flaticon.css" rel="stylesheet">
+
         <!-- Libraries -->
         <link href="/assets/css/bootstrap-select.min.css" rel="stylesheet">
-        <!-- new -->
+
+        <!-- React -->
         <link href="/assets/react/node_modules/todomvc-common/base.css" rel="stylesheet">
         <link href="/assets/react/node_modules/todomvc-app-css/index.css" rel="stylesheet">
+
         <!-- Packages CSS & JS -->
         <link href="/assets/packages/headline/css/style.css" rel="stylesheet">
         <link href="/assets/packages/filter/css/style.css" rel="stylesheet">
         <script src="/assets/packages/filter/js/modernizr.js"></script>
-        <!-- Helpers -->
-        <link href="/assets/css/helpers.css" rel="stylesheet">
+
         <!-- App -->
         <link href="/assets/css/app.css" rel="stylesheet">
-        <link href="/assets/css/npm.css" rel="stylesheet">
+        <link href="/assets/css/responsive.css" rel="stylesheet">
+
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
         <!-- le Favicons -->
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
