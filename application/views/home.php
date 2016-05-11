@@ -18,7 +18,7 @@
                                 </li>
                                 <?php endforeach;?>
                             </ul>
-                            <div class="pull-right">
+                            <div class="pull-right hide">
                                 <li class="hidden-xs">
                                     <a href="#" class="" title="Start a list">
                                         <i class='flaticon-add'></i> new list
