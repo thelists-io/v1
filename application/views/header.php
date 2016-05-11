@@ -25,7 +25,6 @@
         <link href="<?php echo base_url();?>assets/react/node_modules/todomvc-app-css/index.css" rel="stylesheet">
 
         <!-- Packages CSS & JS -->
-        <link href="<?php echo base_url();?>assets/packages/headline/css/style.css" rel="stylesheet">
         <link href="<?php echo base_url();?>assets/packages/filter/css/style.css" rel="stylesheet">
         <script src="<?php echo base_url();?>assets/packages/filter/js/modernizr.js"></script>
 
