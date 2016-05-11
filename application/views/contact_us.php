@@ -1,15 +1,13 @@
-<!-- Secondary Header -->
 <section class="header" role="header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-12 text-center helper-xs-mt2">
-                <h2>conact us</h2>
+            <div class="col-xs-12 col-md-12">
+                <h2>تواصل معنا</h2>
             </div>
         </div>
     </div>
 </section>
 
-<!-- conatct -->
 <section class="contact" role="contact">
     <div class="container">
         <div class="row">
@@ -34,7 +32,7 @@
             <div class="col-xs-12 col-md-8 helper-xs-mt2">
                 <h3>feel free to reach out.</h3>
                 <div id="success_message" class="alert alert-success hide">
-                    
+
                 </div>
                 <form action="" id="contact-form" class="form-horizontal" role="form" method="post">
                     <div class="form-group" id="name-field">
@@ -42,7 +40,7 @@
                             <input type="text" class="form-control" id="form-name" name="name" placeholder="Your Name" >
                             <span id="error_message_name" style="color:red;"></span>
                         </div>
-                        
+
                     </div>
                     <div class="form-group" id="email-field">
                         <div class="col-md-12">
@@ -65,4 +63,3 @@
         </div>
     </div>
 </section>
-

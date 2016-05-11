@@ -1,14 +1,13 @@
-<!-- Secondary Header -->
 <section class="header" role="header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-12 text-center helper-xs-mt2">
-                <h2>terms</h2>
+            <div class="col-xs-12 col-md-12">
+                <h2>شروط الاستخدام</h2>
             </div>
         </div>
     </div>
 </section>
-<!-- FAQ -->
+
 <section class="terms" role="terms">
     <div class="container">
         <div class="row">

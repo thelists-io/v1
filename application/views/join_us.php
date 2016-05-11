@@ -1,14 +1,13 @@
-<!-- Secondary Header -->
 <section class="header" role="header">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-12 text-center helper-xs-mt2">
-                <h2>join us</h2>
+            <div class="col-xs-12 col-md-12">
+                <h2>انضم إلينا</h2>
             </div>
         </div>
     </div>
 </section>
-<!-- join -->
+
 <section class="join" role="join">
     <div class="container">
         <div class="row">
