@@ -2,15 +2,16 @@
 RewriteEngine On
 RewriteBase /crm/
 
-Options +FollowSymLinks 
+Options +FollowSymLinks
 
-RewriteCond %{HTTP_HOST} ^mywebsite.com [NC] 
+RewriteCond %{HTTP_HOST} ^mywebsite.com [NC]
 
 RewriteRule ^index\.php$ - [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 
 RewriteRule ^index.php/(.*)$ [L]
 </IfModule>
+init
