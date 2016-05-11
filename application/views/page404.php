@@ -16,9 +16,9 @@
             <div class="col-xs-12 col-md-4">
 
             <div class="col-xs-12 col-md-12 helper-xs-mt2">
-              <h1>Oops!</h1>
+              <h1>أوووبس</h1>
 
-              <p>The page you are looking for does not exist.</p>
+              <p>الصفحة التي تبحث عنها فير موجودة.</p>
 
 
 
