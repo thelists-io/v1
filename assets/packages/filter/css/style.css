@@ -169,7 +169,7 @@
     }
     .cd-tab-filter li {
         display: inline-block;
-            font-family: 'Montserrat', sans-serif;
+
             text-transform: capitalize;
     }
     .cd-tab-filter li.placeholder {

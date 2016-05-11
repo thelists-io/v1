@@ -5,7 +5,7 @@
     <div class="container todolists">
         <div class="row">
             <ol class="breadcrumb" style="margin-bottom: 5px;">
-                <li><a href="<?= base_url(); ?>">Home</a></li>
+                <li><a href="<?= base_url(); ?>">الأولى</a></li>
                 <li><a href="<?= base_url(); ?>lists/<?= $category->id; ?>/"><?= $category->name; ?></a></li>
             </ol>
             <div class="main_container">

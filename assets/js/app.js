@@ -8,6 +8,14 @@ var Utils = app.Utils;
             style: 'btn-white',
             size: 4
         });
+
+        // add affix to sidebar */
+        $('#nav').affix({
+            offset: {
+                top: $('#nav').offset().top,
+                bottom: ($('footer').outerHeight(true) + $('.meta').outerHeight(true)) + 120
+            }
+        });
     })
 
 })(jQuery);
@@ -24,7 +32,7 @@ smoothScroll.init({
 });
 
 
-$(document).on("submit", '#contact-form', function (e) {
+$(document).on("submit", '#contact-form', function(e) {
     e.preventDefault();
     var form_data = $('#contact-form').serialize();
     $.ajax({
@@ -32,8 +40,8 @@ $(document).on("submit", '#contact-form', function (e) {
         type: 'POST',
         dataType: 'json',
         data: form_data,
-        success: function (data) {
-            if(data.status == 'success') {
+        success: function(data) {
+            if (data.status == 'success') {
                 $('#success_message').removeClass('hide');
                 $('#success_message').html(data.message);
                 $('input, textarea', '#contact-form').val('');
@@ -41,18 +49,18 @@ $(document).on("submit", '#contact-form', function (e) {
                 $('#error_message_email').html('');
                 $('#error_message_message').html('');
             }
-            if(data.status == 'error') {
-                if(typeof(data.errors.name) != "undefined") {
+            if (data.status == 'error') {
+                if (typeof(data.errors.name) != "undefined") {
                     $('#error_message_name').html(data.errors.name);
                 } else {
                     $('#error_message_name').html('');
-                }               
-                if(typeof(data.errors.email) != "undefined") {
+                }
+                if (typeof(data.errors.email) != "undefined") {
                     $('#error_message_email').html(data.errors.email);
                 } else {
                     $('#error_message_email').html('');
                 }
-                if(typeof(data.errors.email) != "undefined") {
+                if (typeof(data.errors.email) != "undefined") {
                     $('#error_message_message').html(data.errors.message);
                 } else {
                     $('#error_message_message').html('');
