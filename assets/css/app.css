@@ -1,9 +1,22 @@
 /** import awesome web fonts */
 
+
+/*
 @import url(https://fonts.googleapis.com/css?family=Allerta);
 @import url(https://fonts.googleapis.com/css?family=Cantata+One);
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+*/
+
+
+
+@font-face {
+    font-family: "Janna-LT-W20-Regular";
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a9c47d30-0eca-434f-8082-ac141c4c97b3.eot?#iefix");
+    src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a9c47d30-0eca-434f-8082-ac141c4c97b3.eot?#iefix") format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/26c24286-5aab-4747-81b9-54330e77fb14.woff") format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9c4c7fff-85b6-442f-9726-af5f49d49e53.ttf") format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a24f53ee-e15e-4931-89a3-b6f17fbfcd72.svg#a24f53ee-e15e-4931-89a3-b6f17fbfcd72") format("svg");
+}
+
+
 
 /** base */
 
@@ -18,7 +31,7 @@
 }
 
 body {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Janna-LT-W20-Regular', sans-serif;
     font-size: 14px;
 }
 
@@ -28,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Janna-LT-W20-Regular', sans-serif;
 }
 
 p {
@@ -124,7 +137,7 @@ a:focus {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 102, 0.1);
     padding: 4px 13px 4px !important;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-right: 10px;
     color: #79a8a9 !important;
 }
 
@@ -133,7 +146,7 @@ a:focus {
 }
 
 .helper-right {
-    text-align: right;
+    text-align: left;
 }
 
 .affix-top {
@@ -177,7 +190,7 @@ a:focus {
 .navbar .navbar-brand {
     color: #999;
     text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Janna-LT-W20-Regular', sans-serif;
     font-size: 24px
 }
 
@@ -212,6 +225,7 @@ color: #999
 .header {
     background-color: #edf0f0;
     padding-top: 40px;
+    padding-bottom: 40px
 }
 
 .header a {
@@ -227,7 +241,7 @@ color: #999
     margin: 0;
     padding-top: 10px;
     color: #999;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Janna-LT-W20-Regular', sans-serif;
 }
 
 .header h2 {
@@ -259,7 +273,7 @@ color: #999
 
 .lists .list .count {
     position: absolute;
-    right: 15px;
+    left: 15px;
     top: 15px;
     width: 20px;
     height: 20px;
@@ -428,7 +442,7 @@ color: #999
 
 .listDetails .widget-start h2 {
     text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Janna-LT-W20-Regular', sans-serif;
     color: #999;
     margin-bottom: 20px;
     border-bottom: 1px solid #eee;
@@ -491,7 +505,7 @@ font-size: 18px
 
 .listDetails .widget-tools i {
     vertical-align: baseline;
-    padding-right: 10px;
+    padding-left: 10px;
     font-size: 12px
 }
 
@@ -533,7 +547,7 @@ font-size: 18px
     padding-bottom: 10px;
     text-transform: capitalize;
     color: #79a8a9;
-    font-family: 'Montserrat'
+    font-family: 'Janna-LT-W20-Regular'
 }
 
 
@@ -758,7 +772,7 @@ padding-top: 0
 
 .join .widget-tools i {
     vertical-align: baseline;
-    padding-right: 10px;
+    padding-left: 10px;
     font-size: 12px
 }
 
@@ -820,7 +834,7 @@ padding-top: 0
 }
 .team .tab-pane p {
     font-family: 11px;
-    font-family: 'Arvo', serif;
+    font-family: 'Janna-LT-W20-Regular', serif;
     color: #999
 }
 .team .tab-pane a {
