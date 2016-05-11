@@ -1,0 +1,15 @@
+.htaccess
+application/cache
+application/config
+application/controllers
+application/core
+application/helpers
+application/hooks
+application/language
+application/libraries
+application/logs
+application/models
+application/third_party
+system
+license.txt
+readme.rst
