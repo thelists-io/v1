@@ -8,14 +8,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 */
 
-
-
 @font-face {
     font-family: "Janna-LT-W20-Regular";
     src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a9c47d30-0eca-434f-8082-ac141c4c97b3.eot?#iefix");
     src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a9c47d30-0eca-434f-8082-ac141c4c97b3.eot?#iefix") format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/26c24286-5aab-4747-81b9-54330e77fb14.woff") format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9c4c7fff-85b6-442f-9726-af5f49d49e53.ttf") format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a24f53ee-e15e-4931-89a3-b6f17fbfcd72.svg#a24f53ee-e15e-4931-89a3-b6f17fbfcd72") format("svg");
 }
-
 
 
 /** base */
@@ -157,15 +154,14 @@ a:focus {
     top: 10px;
 }
 
-
 .affix,
 .affix-bottom {
     width: 263px;
 }
+
 .affix-bottom {
     position: absolute;
 }
-
 
 @media (min-width:1200px) {
     .affix,
@@ -214,9 +210,11 @@ a:focus {
     color: #000;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-background-color:#eee;
-color: #999
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: #fcda05;
+    color: #fff
 }
 
 
@@ -225,7 +223,8 @@ color: #999
 .header {
     background-color: #edf0f0;
     padding-top: 40px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 .header a {
@@ -446,7 +445,7 @@ color: #999
     color: #999;
     margin-bottom: 20px;
     border-bottom: 1px solid #eee;
-font-size: 18px
+    font-size: 18px
 }
 
 .listDetails .widget-start h2::after {
@@ -602,17 +601,15 @@ font-size: 18px
 }*/
 
 
-
-
-
 /** terms */
 
 .terms {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .terms h3:first-child {
-padding-top: 0
+    padding-top: 0
 }
 
 .terms h3 {
@@ -621,13 +618,10 @@ padding-top: 0
     margin-bottom: 20px
 }
 
-
 .terms p {
     text-align: justify;
     margin-bottom: 20px
 }
-
-
 
 .terms .sidebar {
     background-color: #fff;
@@ -657,6 +651,7 @@ padding-top: 0
     border-width: 1px;
     margin-top: 10px
 }
+
 .terms .widget-tools li {
     border-bottom: 1px solid#eee;
     padding-bottom: 0px
@@ -676,10 +671,7 @@ padding-top: 0
 }
 
 
-
-
 /* contact */
-
 
 .contact {
     padding-top: 80px;
@@ -692,7 +684,6 @@ padding-top: 0
     margin-bottom: 20px
 }
 
-
 .contact .widget-tools {
     border: 1px solid #eee;
     border-width: 1px;
@@ -700,8 +691,8 @@ padding-top: 0
 }
 
 
-
 /* 404 */
+
 .page404 {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -709,22 +700,20 @@ padding-top: 0
 
 
 /* join */
+
 .join {
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-
 .join .sidebar {
     background-color: #fff;
     padding: 0em;
-
 }
 
 .join .sidebar h3 {
     padding-top: 0;
 }
-
 
 .join .nav > li > a {
     color: #888;
@@ -744,13 +733,11 @@ padding-top: 0
     background-color: #fcda05;
 }
 
-
 .join .widget-tools {
     border: 1px solid #eee;
     border-width: 1px;
     margin-top: 10px
 }
-
 
 .join .widget-tools li {
     border-bottom: 1px solid#eee;
@@ -777,43 +764,35 @@ padding-top: 0
 }
 
 
-
+/* contributors */
 
 .contributors {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
     text-align: center;
+}
 
-}
-.contributors h2 {
-    text-transform: capitalize;
-}
 .contributors .heading:after {
-    background: #E2D9DB;
-    content: "";
+    background: #eee;
+    content: " ";
     display: block;
-    height: 1px;
-    margin: 5px auto;
-    width: 60px;
+    height: 2px;
+    margin: 6px auto;
+    width: 40px;
 }
-.contributors .row-primary {
-    padding-bottom: 40px;
-}
+
 .contributors h6 {
-    text-transform: uppercase;
-    word-spacing: 5px;
-    padding: 10px 0 0;
+    font-size: 16px
 }
+
 .contributors img {
-    border: 1px solid #fff;
+    border: 1px solid #eee;
     padding: 1px;
-    opacity: 8;
-    cursor: pointer;
 }
+
 .contributors img:hover {
-    border-color: #636363;
-    opacity: 1
+    border-color: #999;
 }
+
 .contributors .item {
-margin-bottom: 30px
+    margin-bottom: 40px
 }
