@@ -60,7 +60,7 @@
 <!-- Libraries -->
 <script src="<?php echo base_url();?>assets/js/bootstrap-select.min.js"></script>
 
-<!-- React libs -->
+<!-- React -->
 <script src="<?php echo base_url();?>assets/react/node_modules/react/dist/react-with-addons.js"></script>
 <script src="<?php echo base_url();?>assets/react/node_modules/classnames/index.js"></script>
 <script src="<?php echo base_url();?>assets/react/node_modules/react/dist/JSXTransformer.js"></script>
