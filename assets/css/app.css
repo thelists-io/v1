@@ -1,0 +1,460 @@
+/** import awesome web fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url(https://fonts.googleapis.com/css?family=Cantata+One);
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/** base */
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #79a8a9;
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #79a8a9;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #aacfd0;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #000;
+    outline: none
+}
+
+
+/** bootstrap */
+
+.btn {
+    border-radius: 0 !important;
+    text-transform: capitalize !important;
+}
+
+.btn-white {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #999 !important;
+}
+
+.btn-white:hover {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #999;
+}
+
+.btn-green {
+    background-color: #1f4e5f !important;
+    border-color: #1f4e5f !important;
+    color: #fff !important;
+}
+
+.btn-green:hover {
+    background-color: #79a8a9 !important;
+    border-color: #79a8a9 !important;
+    color: #fff;
+}
+
+.form-control {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    background: inherit;
+    color: #aaa191;
+    border-bottom: 1px solid #aaa191
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+    outline: 0 none;
+    color: #000
+}
+
+.form-control::-moz-placeholder {
+    color: #aaa191;
+}
+
+
+/** helpers */
+
+.btn-create {
+    background-color: white;
+    border: 1px solid #cddbee;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 102, 0.1);
+    padding: 4px 13px 4px !important;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #79a8a9 !important;
+}
+
+.helper-mt {
+    margin-top: 60px
+}
+
+.helper-right {
+    text-align: right;
+}
+
+.affix-top {
+    position: relative;
+}
+
+.affix {
+    top: 10px;
+}
+
+
+.affix,
+.affix-bottom {
+    width: 263px;
+}
+.affix-bottom {
+    position: absolute;
+}
+
+
+@media (min-width:1200px) {
+    .affix,
+    .affix-bottom {
+        width: 263px;
+    }
+}
+
+
+/** navbar */
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+    background: #fff;
+    border: 0;
+    margin-bottom: 0;
+    border-bottom: 3px solid #fcda05
+}
+
+.navbar .navbar-brand {
+    color: #999;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px
+}
+
+.navbar .navbar-brand:hover {
+    background: inherit;
+    color: #888;
+}
+
+.navbar .navbar-brand i {
+    vertical-align: top;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #999;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > li > a:hover {
+    color: #000;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+background-color:#eee;
+color: #999
+}
+
+
+/** header */
+
+.header {
+    background-color: #edf0f0;
+    padding-top: 40px;
+}
+
+.header a {
+    color: #999;
+}
+
+.header a:hover {
+    color: #777
+}
+
+.header p {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    color: #999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header h2 {
+    text-transform: capitalize;
+    color: #999
+}
+
+.header h2::after {
+    display: block;
+    background-color: #999;
+    height: 2px;
+    width: 60px;
+    margin: 10px auto 0;
+    content: ' ';
+}
+
+
+/** lists */
+
+.lists {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #fff
+}
+
+.lists .list {
+    position: relative;
+}
+
+.lists .list .count {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 10px;
+    white-space: nowrap;
+    border-radius: 100%;
+    background-color: #79a8a9;
+    display: none
+}
+
+.lists .list a {
+    color: #79a8a9;
+    display: block;
+    padding: 1em;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 1px solid #aacfd0;
+    -webkit-transition: background-color .4s linear, background-color .4s linear;
+    -moz-transition: background-color .4s linear, background-color .4s linear;
+    -o-transition: background-color .4s linear, background-color .4s linear;
+    -ms-transition: background-color .4s linear, background-color .4s linear;
+    transition: background-color .4s linear, background-color .4s linear;
+    -webkit-transition: color .4s linear, color .4s linear;
+    -moz-transition: color .4s linear, color .4s linear;
+    -o-transition: color .4s linear, color .4s linear;
+    -ms-transition: color .4s linear, color .4s linear;
+    transition: color .4s linear, color .4s linear;
+    box-shadow: 0 2px 2px rgba(171, 207, 209, .4)
+}
+
+.lists .list.selected a,
+.lists .list.selected a:hover,
+.lists .list.selected a:focus,
+.lists .list a:hover,
+.lists .list a:focus {
+    background-color: inherit;
+    border-color: #999;
+    color: #777;
+}
+
+
+/** faq */
+
+.faq {
+    background: #f4f7f7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    display: none
+}
+
+.faq h3 {
+    color: #999;
+    margin-bottom: 20px
+}
+
+
+/** about */
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about h3 {
+    text-transform: capitalize;
+    padding-top: 0;
+    margin-bottom: 10px
+}
+
+.about p {
+    text-align: justify;
+    margin-bottom: 20px
+}
+
+.about figure {
+    margin-top: 20px
+}
+
+
+/** footer */
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer a {
+    color: #79A8A9;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.footer a:hover {
+    color: #79A8A9;
+}
+
+.footer .svg {
+    width: 60px;
+}
+
+.footer h2 {
+    color: #79a8a9;
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+.footer input[type='email'] {
+    background-color: #f4f7f7;
+    border: #f4f7f7;
+    width: 100%
+}
+
+.footer input::-moz-placeholder {
+    color: #999 !important
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar-default .navbar-toggle {
+        border: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fcda05
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: inherit;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 5px
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border: inherit;
+    }
+    .about {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .about h3 {
+        font-size: 20px
+    }
+    .header {
+        padding-top: 0;
+        padding-bottom: 15px
+    }
+    .header .helper-right {
+        text-align: center;
+    }
+    .faq h3 {
+        font-size: 20px
+    }
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .footer h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px
+    }
+    .footer .svg {
+        width: 40px !important
+    }
+    .footer input {
+        height: 50px
+    }
+    .footer .helper-right {
+        text-align: center !important;
+    }
+    .footer button {
+        width: 100% !important;
+        padding: .8em;
+        margin-top: -10px
+    }
+    .helper-right {
+        text-align: left;
+    }
+    .helper-xs-mt2 {
+        margin-top: 20px
+    }
+    .helper-xs-mt {
+        margin-top: 40px
+    }
+    .meta {
+        text-align: center !important
+    }
+    .meta .pull-right {
+        display: block;
+        float: inherit !important;
+        margin-top: 10px;
+        text-align: center !important;
+    }
+    .listDetails .content {
+        padding: 0 !important
+    }
+}
