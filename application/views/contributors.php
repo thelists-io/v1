@@ -11,13 +11,13 @@
 <section role="team" class="team text-center">
     <div class="container">
         <div class="row row-primary">
-            <div class="col-md-12">
+            <div class="col-md-12" style="margin-bottom: 40px">
                 <p>نخبة مختارة من أفضل المطورين والمصممين .. الخ</p>
             </div>
         </div>
 
         <?php for($i=0;$i<3;$i++) { ?>
-        <div class="row row-secondary">
+        <div class="row">
             <div class="col-xs-12 col-sm-10 col-sm-offset-1">
                 <div class="col-xs-6 col-md-3 col-team">
                     <img alt="" src="<?php echo base_url();?>assets/img/team/01.jpg">

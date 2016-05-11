@@ -12,7 +12,7 @@
 <section class="terms" role="terms">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-3">
+            <div class="col-xs-12 col-md-3 hidden-xs">
                 <div class="sidebar">
                     <div class="widget-tools" data-spy="affix" id="nav">
                         <ul class="nav">
