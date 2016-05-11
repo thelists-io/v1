@@ -118,8 +118,8 @@
                 <div class="collapse navbar-collapse menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="<?php echo base_url();?>" title="الأولى">الأولى</a></li>
-                        <li><a href="<?php echo base_url();?>about/" title="حول الموقع">حول الموقع</a></li>
-                        <li><a href="<?=base_url();?>contributors/" title="المساهمون">المساهمون</a></li>
+                        <li <?php if (($this->uri->uri_string() == 'about')) {echo 'class="active"';} ?>><a href="<?php echo base_url();?>about/" title="حول الموقع">حول الموقع</a></li>
+                        <li <?php if (($this->uri->uri_string() == 'contributors')) {echo 'class="active"';} ?>><a href="<?=base_url();?>contributors/" title="المساهمون">المساهمون</a></li>
                     </ul>
                 </div>
             </div>
