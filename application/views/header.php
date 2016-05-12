@@ -111,12 +111,13 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="<?php echo base_url();?>" title="القوائم">
-                    <i class="flaticon-add-square"></i> القوائم
+                    <i class="flaticon-add"></i> القوائم
                 </a>
             </div>
             <div class="collapse navbar-collapse menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+
+                    <li <?php if (!$this->uri->segment(1)) {echo 'class="active"';} ?>>
                         <a href="<?php echo base_url();?>" title="الأولى">الأولى</a>
                     </li>
                     <li <?php if (($this->uri->uri_string() == 'about')) {echo 'class="active"';} ?>>
