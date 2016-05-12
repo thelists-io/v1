@@ -303,7 +303,8 @@ a:focus {
 }
 
 .about hr {
-    margin-bottom: 30px
+    border: none;
+    margin-bottom: 40px
 }
 
 .about p {
