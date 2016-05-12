@@ -180,7 +180,7 @@ a:focus {
     background: #fff;
     border: 0;
     margin-bottom: 0;
-    border-bottom: 3px solid #fcda05
+    border-bottom: 5px solid #fcda05
 }
 
 .navbar .navbar-brand {
@@ -330,7 +330,7 @@ a:focus {
 /** footer */
 
 .footer {
-    border-top: 3px solid #fcda05;
+    border-top: 5px solid #fcda05;
     background-color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
