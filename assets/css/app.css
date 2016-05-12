@@ -218,43 +218,17 @@ a:focus {
 }
 
 
-/** header */
+/* header */
 
 .header {
-    background-color: #edf0f0;
+    background-color: #f0f0f0;
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
 }
 
-.header a {
-    color: #999;
-}
-
-.header a:hover {
-    color: #777
-}
-
-.header p {
-    padding: 0;
-    margin: 0;
-    padding-top: 10px;
-    color: #999;
-    font-family: 'Janna-LT-W20-Regular', sans-serif;
-}
-
-.header h2 {
-    text-transform: capitalize;
+.header h1 {
     color: #999
-}
-
-.header h2::after {
-    display: block;
-    background-color: #999;
-    height: 2px;
-    width: 60px;
-    margin: 10px auto 0;
-    content: ' ';
 }
 
 
