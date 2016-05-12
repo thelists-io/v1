@@ -1,7 +1,7 @@
 .cd-main-content {
     position: relative;
     margin-top: 0px;
-    /*min-height: 400px*/
+    min-height: 600px
 }
 
 .cd-main-content:after {
