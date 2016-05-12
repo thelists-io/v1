@@ -12,5 +12,6 @@ application/logs
 application/models
 application/third_party
 system
+vendor
 license.txt
 readme.rst

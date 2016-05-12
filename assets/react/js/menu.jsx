@@ -39,7 +39,8 @@ var app = app || {};
             var parentCategoryID = $('#category_id').val();
 
             var selectedCategory = this.props.selectedCategory;
-
+           
+            var className = (!selectedCategory) ? 'active' : '';
 
             var menuItems = this.props.menus.map(function (menu) {
 				return (
@@ -58,7 +59,7 @@ var app = app || {};
                     <div className="widget-start"><h2>{categoryName}</h2></div>
                     <div className="widget-links">
                         <ul className="nav">
-                          <li><a href="#" onClick={this.handleClick} className="renderList" data-category={parentCategoryID}>Main</a></li>
+                          <li className={className}><a href="#" onClick={this.handleClick} className="renderList" data-category={parentCategoryID}>Main</a></li>
                           {menuItems}
                         </ul>
                     </div>
