@@ -1,38 +1,11 @@
 <section class="footer" role="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-8">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <dl>
-                            <dt>
-                                مهمتنا
-                            </dt>
-                            <dd>أفضل ما يمكنك الحصول عليه من قوائم مختارة بعناية، في شتى المجالات، هذا النص ليس نهائيا وقابلا للتعديل، شكرا لأنك قرأته.</dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
             <div class="col-xs-12 col-md-2">
-                <dl>
-                    <dt>تصفح</dt>
-                    <dd><a href="<?=base_url();?>about/" title="حول الموقع">حول الموقع</a></dd>
-                    <dd><a href="<?=base_url();?>contributors/" title="المساهمون">المساهمون</a></dd>
-                    <dd><a href="<?=base_url();?>terms/" title="شروط الاستخدام">شروط الاستخدام</a></dd>
-                </dl>
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <dl>
-                    <dt>تواصل</dt>
-                    <dd><a href="<?=base_url();?>contact_us/" title="تواصل بنا">تواصل بنا</a></dd>
-                    <dd><a href="<?=base_url();?>join_us/" title="انضم إلينا">انضم إلينا</a></dd>
-                    <dd><a href="<?=base_url();?>send_feedback/" title="أرسل ملاحظاتك">أرسل ملاحظاتك</a></dd>
-                </dl>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-xs-12 col-md-12">
+                <h4>القوائم &copy; 2016 </h4>
+                <p>
+                    أفضل ما يمكنك الحصول عليه من قوائم مختارة بعناية
+                </p>
                 <ul class="list-inline">
                     <li>
                         <a href="http://twitter.com/" title="تابعنا على تويتر">
@@ -44,9 +17,24 @@
                             <i class="fa fa-facebook"></i>
                         </a>
                     </li>
-                    <li><a href="mailto:hello@thelists.io" title="راسلنا">hello@thelists.io</a></li>
-                    <li class="pull-right">القوائم &copy; 2016 </li>
                 </ul>
+            </div>
+            <div class="hidden-xs col-md-6"></div>
+            <div class="col-xs-12 col-md-2">
+                <dl>
+                    <dt>تصفح</dt>
+                    <dd><a href="<?=base_url();?>about/" title="حول الموقع">حول الموقع</a></dd>
+                    <dd><a href="<?=base_url();?>contributors/" title="المساهمون">المساهمون</a></dd>
+                    <dd><a href="<?=base_url();?>terms/" title="شروط الاستخدام">شروط الاستخدام</a></dd>
+                </dl>
+            </div>
+            <div class="col-xs-12 col-md-2">
+                <dl>
+                    <dt>تواصل</dt>
+                    <dd><a href="<?=base_url();?>join_us/" title="انضم إلينا">انضم إلينا</a></dd>
+                    <dd><a href="<?=base_url();?>contact_us/" title="تواصل بنا">تواصل معنا</a></dd>
+                    <dd><a href="<?=base_url();?>send_feedback/" title="أرسل ملاحظاتك">أرسل ملاحظاتك</a></dd>
+                </dl>
             </div>
         </div>
     </div>

@@ -209,16 +209,18 @@ a:focus {
 .navbar .navbar-nav > li > a:hover {
     color: #000;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
     background-color: inherit;
     color: #999
 }
+
 .navbar-default .navbar-nav > .active > a::after,
 .navbar-default .navbar-nav > .active > a:focus::after,
 .navbar-default .navbar-nav > .active > a:hover::after {
-      display: block;
+    display: block;
     height: 1px;
     width: 100%;
     margin: 5px 0 0;
@@ -251,7 +253,6 @@ a:focus {
 .lists .list {
     position: relative;
 }
-
 
 .lists .list a {
     color: #79a8a9;
@@ -326,11 +327,10 @@ a:focus {
 /** footer */
 
 .footer {
-    border-top: 5px solid #fcda05;
-    background-color: #fff;
+    border: 5px solid #fcda05;
+    border-width: 3px 0 0;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: #888
 }
 
 .footer a {
@@ -341,13 +341,39 @@ a:focus {
     color: #000;
 }
 
-.footer hr {
-    border-color: #e2e5e8
+.footer p {
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #999;
+}
+
+.footer h4 {
+    font-size: 16px;
+    color: #79a8a9;
+}
+
+.footer p::after {
+    background: #eee;
+    content: " ";
+    display: block;
+    height: 3px;
+    margin: 6px 0;
+    width: 40px;
+}
+
+.footer i {
+    font-size: 16px
 }
 
 .footer dt {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     color: #79a8a9;
+    font-size: 16px
+}
+
+.footer dd {
+    padding-bottom: 2px;
 }
 
 
@@ -355,8 +381,8 @@ a:focus {
 
 .sidebar {
     margin-top: 0px
-
 }
+
 .sidebar .navigation {
     border: 1px solid #eee;
 }
@@ -376,8 +402,7 @@ a:focus {
 }
 
 .sidebar .navigation a:hover,
-.sidebar .navigation a:focus
- {
+.sidebar .navigation a:focus {
     background-color: #eee !important
 }
 
@@ -393,7 +418,6 @@ a:focus {
     padding-bottom: 40px;
     border-bottom: 1px solid #eee;
 }
-
 
 .listDetails .nav > li > a {
     color: #888;
@@ -463,8 +487,6 @@ a:focus {
     border-bottom: 1px solid #eee;
 }
 
-
-
 .listDetails .content {
     border: 0px solid #eee;
     padding-top: 50px
@@ -525,8 +547,6 @@ a:focus {
 .bs-searchbox {
     padding: 0
 }*/
-
-
 
 
 /* contact */
