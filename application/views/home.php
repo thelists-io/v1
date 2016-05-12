@@ -1,3 +1,13 @@
+<section class="header" role="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <h1>تصفح قوائمنا</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="lists" role="lists">
     <div class="container">
         <div class="row">

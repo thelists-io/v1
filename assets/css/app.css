@@ -235,34 +235,19 @@ a:focus {
 /** lists */
 
 .lists {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    background-color: #fff
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .lists .list {
     position: relative;
 }
 
-.lists .list .count {
-    position: absolute;
-    left: 15px;
-    top: 15px;
-    width: 20px;
-    height: 20px;
-    font-size: 10px;
-    line-height: 10px;
-    white-space: nowrap;
-    border-radius: 100%;
-    background-color: #79a8a9;
-    display: none
-}
 
 .lists .list a {
     color: #79a8a9;
     display: block;
     padding: 1em;
-    text-transform: uppercase;
     background-color: #fff;
     border: 1px solid #aacfd0;
     -webkit-transition: background-color .4s linear, background-color .4s linear;
