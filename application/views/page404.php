@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12">
-                <h2>صفحة 404</h2>
+                <h1>صفحة 404</h1>
             </div>
         </div>
     </div>
 </section>
 
-<section class="page404" role="page404">
+<section class="page" role="page">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12">
