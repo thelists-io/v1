@@ -83,3 +83,29 @@ $(document).on("submit", '#join-us-form', function(e) {
         }
     });
 });
+
+$(document).on("submit", '#sendfeedback-form', function(e) {
+    e.preventDefault();
+    var form_data = $('#sendfeedback-form').serialize();
+    $.ajax({
+        url: "/send_feedback",
+        type: 'POST',
+        dataType: 'json',
+        data: form_data,
+        success: function(data) {
+            if (data.status == 'success') {
+                $('.errorMessage').html('');
+                $('#success_message').removeClass('hide');
+                $('#success_message').html(data.message);
+                $('input, textarea', '#sendfeedback-form').val('');
+            }
+            if (data.status == 'error') {
+                $('#success_message').addClass('hide');
+                $('.errorMessage').html('');
+                $.each(data.errors, function( index, value ) {                 
+                    $('#error_message_'+index).html(value);
+                });
+            }
+        }
+    });
+});
