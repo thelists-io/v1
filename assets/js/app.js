@@ -3,11 +3,6 @@ var Utils = app.Utils;
 (function($) {
 
     $(document).ready(function() {
-        /* init js code here .. */
-        $('.selectpicker').selectpicker({
-            style: 'btn-white',
-            size: 4
-        });
 
         // add affix to sidebar */
         $('#nav').affix({
@@ -20,7 +15,6 @@ var Utils = app.Utils;
 
 })(jQuery);
 
-/* for any upcoming use */
 smoothScroll.init({
     selector: '[data-scroll]',
     selectorHeader: '[data-scroll-header]',
@@ -50,7 +44,7 @@ $(document).on("submit", '#contact-form', function(e) {
             if (data.status == 'error') {
                 $('#success_message').addClass('hide');
                 $('.errorMessage').html('');
-                $.each(data.errors, function( index, value ) {                 
+                $.each(data.errors, function( index, value ) {
                     $('#error_message_'+index).html(value);
                 });
             }
@@ -76,7 +70,7 @@ $(document).on("submit", '#join-us-form', function(e) {
             if (data.status == 'error') {
                 $('#success_message').addClass('hide');
                 $('.errorMessage').html('');
-                $.each(data.errors, function( index, value ) {                 
+                $.each(data.errors, function( index, value ) {
                     $('#error_message_'+index).html(value);
                 });
             }
@@ -102,7 +96,7 @@ $(document).on("submit", '#sendfeedback-form', function(e) {
             if (data.status == 'error') {
                 $('#success_message').addClass('hide');
                 $('.errorMessage').html('');
-                $.each(data.errors, function( index, value ) {                 
+                $.each(data.errors, function( index, value ) {
                     $('#error_message_'+index).html(value);
                 });
             }

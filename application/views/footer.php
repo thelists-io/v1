@@ -45,9 +45,6 @@
 <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url();?>assets/js/smooth-scroll.min.js"></script>
 
-<!-- Libraries -->
-<script src="<?php echo base_url();?>assets/js/bootstrap-select.min.js"></script>
-
 <!-- React -->
 <script src="<?php echo base_url();?>assets/react/node_modules/react/dist/react-with-addons.js"></script>
 <script src="<?php echo base_url();?>assets/react/node_modules/classnames/index.js"></script>
