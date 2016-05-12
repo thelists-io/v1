@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12">
-                <h2>شروط الاستخدام</h2>
+                <h1>شروط الاستخدام</h1>
             </div>
         </div>
     </div>
@@ -11,44 +11,56 @@
 <section class="terms" role="terms">
     <div class="container">
         <div class="row">
+
             <div class="col-xs-12 col-md-3 hidden-xs">
+
                 <div class="sidebar">
-                    <div class="widget-tools" data-spy="affix" id="nav">
+                    <div class="navigation" data-spy="affix" id="nav">
                         <ul class="nav">
-                            <li><a data-scroll href="#privacy" title="">privacy policy</a></li>
-                            <li><a data-scroll href="#terms" title="">termes of services</a></li>
-                            <li><a data-scroll href="#updates" title="">updates</a></li>
+                            <li><a data-scroll href="#section1" title="شروط الخصوصية"><i class="fa fa-angle-left"></i> شروط الخصوصية</a></li>
+                            <li><a data-scroll href="#section2" title="تحديثات جديدة"><i class="fa fa-angle-left"></i> تحديثات جديدة</a></li>
+                            <li><a data-scroll href="#section3" title="تفاصيل الأخرى"><i class="fa fa-angle-left"></i> تفاصيل الأخرى</a></li>
                         </ul>
                     </div>
                 </div>
+
             </div>
-            <div class="col-xs-12 col-md-9 termsContents helper-xs-mt2">
-                <h3 id="privacy">privacy policy</h3>
-                <p>Thanks for using our products and services (“Services”). The Services are provided by Google Inc. (“Google”), located at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.</p>
-                </p>Our Services are very diverse, so sometimes additional terms or product requirements (including age requirements) may apply. Additional terms will be available with the relevant Services, and those additional terms become part of your agreement with us if you use those Services. Using our Services</p>
+
+            <div class="col-xs-12 col-md-9">
+
+                <h4 id="section1">شروط الخصوصية</h4>
                 <p>
-                    Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct. Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.</p>
+                    تعرف البرمجة بأنها عملية كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب أو أي جهاز آخر مثل قارئات أقراص الدي في دي أو أجهزة استقبال الصوت والصورة في نظم الاتصالات الحديثة، لتوجيه هذا الجهاز وإعلامه بكيفية التعامل مع البيانات أو كيفية تنفيذ سلسلة من الأعمال المطلوبة تسمى خوارزمية.
+                </p>
                 <p>
-                    Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or logos used in our Services. Don’t remove, obscure, or alter any legal notices displayed in or along with our Services.</p>
+                    وتتبع عملية البرمجة قواعد خاصة باللغة التي اختارها المبرمج. وكل لغة برمجة لها خصائصها التي تميزها عن الأخرى وتجعلها مناسبة بدرجات متفاوتة لكل نوع من أنواع البرامج وحسب المهمة المطلوبة من هذا البرنامج. كما أن اللغات البرمجية أيضا لها خصائص مشتركة وحدود مشتركة بحكم أن كل هذه اللغات صممت للتعامل مع الحاسوب. وتتطور لغات البرمجة (السوفتوير Software) بتطور عتاد الحاسوب المرئي (الهاردوير Hardware). فعندما ابتكر الحاسوب في الأربعينيات والخمسينيات من القرن الماضي (بعد أجهزة الحساب الكهربائية في العشرينات) - وكان الكمبيوتر يعمل بأعداد كبيرة من الصمامات الإلكترونية - كانت لغة البرمجة معقدة هي الأخرى، حتي أنها كانت عبارة عن سلسلة من الأعداد لا يدخلها إلا الصفر 0 والواحد 1 وذلك لأن الحاسب يفهم حالتين فقط وجود التيار 1 أو عدم وجوده 0، وكان ذلك صعبا على المبرمجين. ولكن بابتكار الترانزيستور صغر حجم الحاسوب كثيرا وزادت إمكانياته، واستطاع المختصون في نفس الوقت أن يبتكروا لغات أسهل للاستخدام، وأصبحت لغات البرمجة مفهومة إلى حد بعيد للمختصين. ولا يزال التطوير والتسهيل جاريا وتسمى هذه اللغات سهلة التعامل بالنسبة للمبرمجين باللغات عالية المستوى.
+                </p>
 
 
-                                    <h3 id="terms">terms of services</h3>
-                <p>Thanks for using our products and services (“Services”). The Services are provided by Google Inc. (“Google”), located at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.</p>
-                </p>Our Services are very diverse, so sometimes additional terms or product requirements (including age requirements) may apply. Additional terms will be available with the relevant Services, and those additional terms become part of your agreement with us if you use those Services. Using our Services</p>
+                <hr>
+                <h4 id="section2">تحديثات جديدة</h4>
                 <p>
-                    Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct. Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.</p>
+                    وتتبع عملية البرمجة قواعد خاصة باللغة التي اختارها المبرمج. وكل لغة برمجة لها خصائصها التي تميزها عن الأخرى وتجعلها مناسبة بدرجات متفاوتة لكل نوع من أنواع البرامج وحسب المهمة المطلوبة من هذا البرنامج. كما أن اللغات البرمجية أيضا لها خصائص مشتركة وحدود مشتركة بحكم أن كل هذه اللغات صممت للتعامل مع الحاسوب. وتتطور لغات البرمجة (السوفتوير Software) بتطور عتاد الحاسوب المرئي (الهاردوير Hardware). فعندما ابتكر الحاسوب في الأربعينيات والخمسينيات من القرن الماضي (بعد أجهزة الحساب الكهربائية في العشرينات) - وكان الكمبيوتر يعمل بأعداد كبيرة من الصمامات الإلكترونية - كانت لغة البرمجة معقدة هي الأخرى، حتي أنها كانت عبارة عن سلسلة من الأعداد لا يدخلها إلا الصفر 0 والواحد 1 وذلك لأن الحاسب يفهم حالتين فقط وجود التيار 1 أو عدم وجوده 0، وكان ذلك صعبا على المبرمجين. ولكن بابتكار الترانزيستور صغر حجم الحاسوب كثيرا وزادت إمكانياته، واستطاع المختصون في نفس الوقت أن يبتكروا لغات أسهل للاستخدام، وأصبحت لغات البرمجة مفهومة إلى حد بعيد للمختصين. ولا يزال التطوير والتسهيل جاريا وتسمى هذه اللغات سهلة التعامل بالنسبة للمبرمجين باللغات عالية المستوى.
+                </p>
                 <p>
-                    Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or logos used in our Services. Don’t remove, obscure, or alter any legal notices displayed in or along with our Services.</p>
+                    تعرف البرمجة بأنها عملية كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب أو أي جهاز آخر مثل قارئات أقراص الدي في دي أو أجهزة استقبال الصوت والصورة في نظم الاتصالات الحديثة، لتوجيه هذا الجهاز وإعلامه بكيفية التعامل مع البيانات أو كيفية تنفيذ سلسلة من الأعمال المطلوبة تسمى خوارزمية.
+                </p>
+                <p>
+                    تعرف البرمجة بأنها عملية كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب أو أي جهاز آخر مثل قارئات أقراص الدي في دي أو أجهزة استقبال الصوت والصورة في نظم الاتصالات الحديثة، لتوجيه هذا الجهاز وإعلامه بكيفية التعامل مع البيانات أو كيفية تنفيذ سلسلة من الأعمال المطلوبة تسمى خوارزمية.
+                </p>
 
 
-                <h3 id="updates">updates</h3>
-                <p>Thanks for using our products and services (“Services”). The Services are provided by Google Inc. (“Google”), located at 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.</p>
-                </p>Our Services are very diverse, so sometimes additional terms or product requirements (including age requirements) may apply. Additional terms will be available with the relevant Services, and those additional terms become part of your agreement with us if you use those Services. Using our Services</p>
+                <hr>
+                <h4 id="section3">تفاصيل الأخرى</h4>
                 <p>
-                    Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct. Don’t misuse our Services. For example, don’t interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.</p>
+                    وتتبع عملية البرمجة قواعد خاصة باللغة التي اختارها المبرمج. وكل لغة برمجة لها خصائصها التي تميزها عن الأخرى وتجعلها مناسبة بدرجات متفاوتة لكل نوع من أنواع البرامج وحسب المهمة المطلوبة من هذا البرنامج. كما أن اللغات البرمجية أيضا لها خصائص مشتركة وحدود مشتركة بحكم أن كل هذه اللغات صممت للتعامل مع الحاسوب. وتتطور لغات البرمجة (السوفتوير Software) بتطور عتاد الحاسوب المرئي (الهاردوير Hardware). فعندما ابتكر الحاسوب في الأربعينيات والخمسينيات من القرن الماضي (بعد أجهزة الحساب الكهربائية في العشرينات) - وكان الكمبيوتر يعمل بأعداد كبيرة من الصمامات الإلكترونية - كانت لغة البرمجة معقدة هي الأخرى، حتي أنها كانت عبارة عن سلسلة من الأعداد لا يدخلها إلا الصفر 0 والواحد 1 وذلك لأن الحاسب يفهم حالتين فقط وجود التيار 1 أو عدم وجوده 0، وكان ذلك صعبا على المبرمجين. ولكن بابتكار الترانزيستور صغر حجم الحاسوب كثيرا وزادت إمكانياته، واستطاع المختصون في نفس الوقت أن يبتكروا لغات أسهل للاستخدام، وأصبحت لغات البرمجة مفهومة إلى حد بعيد للمختصين. ولا يزال التطوير والتسهيل جاريا وتسمى هذه اللغات سهلة التعامل بالنسبة للمبرمجين باللغات عالية المستوى.
+                </p>
                 <p>
-                    Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. These terms do not grant you the right to use any branding or logos used in our Services. Don’t remove, obscure, or alter any legal notices displayed in or along with our Services.</p>
-
+                    تعرف البرمجة بأنها عملية كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب أو أي جهاز آخر مثل قارئات أقراص الدي في دي أو أجهزة استقبال الصوت والصورة في نظم الاتصالات الحديثة، لتوجيه هذا الجهاز وإعلامه بكيفية التعامل مع البيانات أو كيفية تنفيذ سلسلة من الأعمال المطلوبة تسمى خوارزمية.
+                </p>
+                <p>
+                    تعرف البرمجة بأنها عملية كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب أو أي جهاز آخر مثل قارئات أقراص الدي في دي أو أجهزة استقبال الصوت والصورة في نظم الاتصالات الحديثة، لتوجيه هذا الجهاز وإعلامه بكيفية التعامل مع البيانات أو كيفية تنفيذ سلسلة من الأعمال المطلوبة تسمى خوارزمية.
+                </p>
             </div>
         </div>
     </div>
