@@ -42,29 +42,43 @@ $(document).on("submit", '#contact-form', function(e) {
         data: form_data,
         success: function(data) {
             if (data.status == 'success') {
+                $('.errorMessage').html('');
                 $('#success_message').removeClass('hide');
                 $('#success_message').html(data.message);
                 $('input, textarea', '#contact-form').val('');
-                $('#error_message_name').html('');
-                $('#error_message_email').html('');
-                $('#error_message_message').html('');
             }
             if (data.status == 'error') {
-                if (typeof(data.errors.name) != "undefined") {
-                    $('#error_message_name').html(data.errors.name);
-                } else {
-                    $('#error_message_name').html('');
-                }
-                if (typeof(data.errors.email) != "undefined") {
-                    $('#error_message_email').html(data.errors.email);
-                } else {
-                    $('#error_message_email').html('');
-                }
-                if (typeof(data.errors.email) != "undefined") {
-                    $('#error_message_message').html(data.errors.message);
-                } else {
-                    $('#error_message_message').html('');
-                }
+                $('#success_message').addClass('hide');
+                $('.errorMessage').html('');
+                $.each(data.errors, function( index, value ) {                 
+                    $('#error_message_'+index).html(value);
+                });
+            }
+        }
+    });
+});
+
+$(document).on("submit", '#join-us-form', function(e) {
+    e.preventDefault();
+    var form_data = $('#join-us-form').serialize();
+    $.ajax({
+        url: "/join_us",
+        type: 'POST',
+        dataType: 'json',
+        data: form_data,
+        success: function(data) {
+            if (data.status == 'success') {
+                $('.errorMessage').html('');
+                $('#success_message').removeClass('hide');
+                $('#success_message').html(data.message);
+                $('input, textarea', '#join-us-form').val('');
+            }
+            if (data.status == 'error') {
+                $('#success_message').addClass('hide');
+                $('.errorMessage').html('');
+                $.each(data.errors, function( index, value ) {                 
+                    $('#error_message_'+index).html(value);
+                });
             }
         }
     });
