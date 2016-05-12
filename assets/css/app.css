@@ -180,7 +180,7 @@ a:focus {
     background: #fff;
     border: 0;
     margin-bottom: 0;
-    border-bottom: 5px solid #fcda05
+    border-bottom: 0px solid #fcda05
 }
 
 .navbar .navbar-brand {
@@ -221,14 +221,14 @@ a:focus {
 /* header */
 
 .header {
-    background-color: #f0f0f0;
+    background-color: #fcda05;
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
 }
 
 .header h1 {
-    color: #999
+    color: #fff
 }
 
 
@@ -290,25 +290,25 @@ a:focus {
 }
 
 
-/* about */
+/* page */
 
-.about {
+.page {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.about h4 {
+.page h4 {
     margin-top: 0;
     margin-bottom: 15px;
     color: #666;
 }
 
-.about hr {
+.page hr {
     border: none;
     margin-bottom: 40px
 }
 
-.about p {
+.page p {
     text-align: justify;
     color: #999
 }
@@ -517,29 +517,6 @@ a:focus {
     padding: 0
 }*/
 
-
-/** terms */
-
-.terms {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.terms h4 {
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: #666;
-}
-
-.terms hr {
-    border: none;
-    margin-bottom: 40px
-}
-
-.terms p {
-    text-align: justify;
-    color: #999
-}
 
 
 

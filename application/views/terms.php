@@ -8,7 +8,7 @@
     </div>
 </section>
 
-<section class="terms" role="terms">
+<section class="page" role="page">
     <div class="container">
         <div class="row">
 
