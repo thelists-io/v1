@@ -331,26 +331,25 @@ a:focus {
 }
 
 
-/** about */
+/* about */
 
 .about {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .about h3 {
-    text-transform: capitalize;
-    padding-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.about hr {
+    margin-bottom: 30px
 }
 
 .about p {
     text-align: justify;
-    margin-bottom: 20px
-}
-
-.about figure {
-    margin-top: 20px
+    color: #999
 }
 
 
