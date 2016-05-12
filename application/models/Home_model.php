@@ -14,7 +14,7 @@ Class Home_model extends CI_Model {
         $this->db->from('categories');
 	    $this->db->where('is_show', 1);
         $this->db->where_not_in('parent_id', 0);
-        $this->db->order_by('id', 'RANDOM');
+        //$this->db->order_by('id', 'RANDOM');
         return $this->db->get()->result();
     }
 
