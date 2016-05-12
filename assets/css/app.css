@@ -617,6 +617,7 @@ a:focus {
 
 .contributors {
     padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -634,12 +635,8 @@ a:focus {
 }
 
 .contributors img {
-    border: 1px solid #eee;
-    padding: 1px;
-}
-
-.contributors img:hover {
-    border-color: #999;
+    width: 120px;
+    height: 120px;
 }
 
 .contributors .item {
