@@ -209,12 +209,21 @@ a:focus {
 .navbar .navbar-nav > li > a:hover {
     color: #000;
 }
-
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-    background-color: #fcda05;
-    color: #fff
+    background-color: inherit;
+    color: #999
+}
+.navbar-default .navbar-nav > .active > a::after,
+.navbar-default .navbar-nav > .active > a:focus::after,
+.navbar-default .navbar-nav > .active > a:hover::after {
+      display: block;
+    height: 1px;
+    width: 100%;
+    margin: 5px 0 0;
+    content: ' ';
+    background-color: #999;
 }
 
 
