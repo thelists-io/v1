@@ -14,7 +14,7 @@
             <div class="col-xs-12 col-md-3">
                 <div class="sidebar">
                     <div class="block" data-spy="affix" id="nav">
-                        <h4>تواصل معنا</h4>
+                        <h4>لتواصل مباشر</h4>
                         <address>
                             +966562098080
                             <br>
