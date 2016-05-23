@@ -176,10 +176,10 @@ var app = app || {};
                                         {socialItems}
                                             <section className="todoapp">
                                                 <header className="header">
-                                                        <h1>{category_name}</h1>
+                                                        <h2 className="text-center">{category_name}</h2>
                                                         <input
                                                             className="new-todo"
-                                                            placeholder="Add something to the list"
+                                                            placeholder="أضف أي نقطة جديدة للقائمة"
                                                             value={this.state.newTodo}
                                                             onKeyDown={this.handleNewTodoKeyDown}
                                                             onChange={this.handleChange}

@@ -637,3 +637,11 @@ a:focus {
 .contributors .item {
     margin-bottom: 40px
 }
+
+.toggle {
+    outline: 0 !important;
+}
+
+.listNameh2 {
+    text-align:center !important;
+}

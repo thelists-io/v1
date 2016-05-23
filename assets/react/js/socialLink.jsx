@@ -28,18 +28,18 @@ var app = app || {};
                     
                     <ul className="list-inline pull-right">
                             <li>
-                                <a href="javascript:window.print()" ><i className="fa fa-print"></i> </a>
+                                <a href="javascript:window.print()" ><i className="fa fa-print"></i> </a>&nbsp;
                             </li>
                             <li>
                                 <a href="#" onClick={this.fbShare}>
                                     <i className="fa fa-facebook"> </i> 
-                                </a>&nbsp;
+                                </a>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <a href="#" onClick={this.twShare}>
                                     <i className="fa fa-twitter"> </i> 
-                                </a>&nbsp;
+                                </a>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <a href="#" onClick={this.gPlusShare}>
                                     <i className="fa fa-google-plus"> </i> 
-                                </a>&nbsp;
+                                </a>&nbsp;&nbsp;&nbsp;&nbsp;
                             </li>
                         </ul>
                     </div>        

@@ -1,20 +1,10 @@
-<section class="header" role="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12">
-                <h1>تصفح قوائمنا</h1>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="lists" role="lists">
+<section class="lists" role="lists" style="background-color:#efefef">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12">
                 <div class="cd-main-content">
                     <div class="cd-tab-filter-wrapper">
-                        <div class="cd-tab-filter">
+                        <div class="cd-tab-filter" style="background-color:#efefef">
                             <ul class="cd-filters pull-left">
 
                                 <li class="placeholder">

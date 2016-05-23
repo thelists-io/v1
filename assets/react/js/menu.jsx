@@ -59,7 +59,7 @@ var app = app || {};
                     <div className="widget-start"><h2>{categoryName}</h2></div>
                     <div className="widget-links">
                         <ul className="nav">
-                          <li className={className}><a href="#" onClick={this.handleClick} className="renderList" data-category={parentCategoryID}>Main</a></li>
+                          <li className={className}><a href="#" onClick={this.handleClick} className="renderList" data-category={parentCategoryID}>{categoryName}</a></li>
                           {menuItems}
                         </ul>
                     </div>
