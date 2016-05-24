@@ -42,7 +42,7 @@ var app = app || {};
                                 </a>&nbsp;&nbsp;&nbsp;&nbsp;
                             </li>
                         </ul>
-                    </div>        
+                    </div>            
             );
           }
         });

@@ -1,7 +1,7 @@
 <script>
 category_name = '<?= $category->name; ?>';
 </script>
-
+ <!-- remove this 
 <section class="header" role="header">
     <div class="container">
         <div class="row">
@@ -11,13 +11,13 @@ category_name = '<?= $category->name; ?>';
         </div>
     </div>
 </section>
-
+-->
 <section class="listDetails" role="listDetails">
     <div class="container todolists">
         <div class="row">
 
             <!-- remove this -->
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <ol class="breadcrumb">
                     <li><a href="<?= base_url(); ?>">الأولى</a></li>
                     <li><a href="<?= base_url(); ?>lists/<?= $category->id; ?>/"><?= $category->name; ?></a></li>

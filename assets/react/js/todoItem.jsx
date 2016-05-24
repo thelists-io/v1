@@ -90,7 +90,7 @@ var app = app || {};
                     }
 
                     if(this.props.todo.heading == 1) {
-                        title = '<p><h2>'+this.props.todo.title+'</h2></p>';
+                        title = '<p><h4 class="heading_item">'+this.props.todo.title+'</h4></p>';
                         return title;
                     }
                     

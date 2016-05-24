@@ -49,20 +49,20 @@ p {
 ::-moz-selection {
     color: #fff;
     text-shadow: none;
-    background: #79a8a9;
+    background: #42A95F;
 }
 
 ::selection {
     color: #fff;
     text-shadow: none;
-    background: #79a8a9;
+    background: #42A95F;
 }
 
 a {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: #aacfd0;
+    color: #42A95F;
 }
 
 a:hover,
@@ -93,8 +93,8 @@ a:focus {
 }
 
 .btn-green {
-    background-color: #79a8a9 !important;
-    border-color: #79a8a9 !important;
+    background-color: #42A95F !important;
+    border-color: #42A95F !important;
     color: #fff !important;
 }
 
@@ -138,7 +138,7 @@ a:focus {
     padding: 4px 13px 4px !important;
     margin-top: 10px;
     margin-right: 10px;
-    color: #79a8a9 !important;
+    color: #42A95F !important;
 }
 
 .helper-mt {
@@ -183,7 +183,7 @@ a:focus {
     background: #fff;
     border: 0;
     margin-bottom: 0;
-    border-bottom: 0px solid #fcda05
+    border-bottom: 0px solid #42A95F
 }
 
 .navbar .navbar-brand {
@@ -235,14 +235,13 @@ a:focus {
 /* header */
 
 .header {
-    background-color: #fcda05;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
+padding-top: 40px;
+text-align: center;
+color: #777;
 }
 
 .header h1 {
-    color: #fff
+    color: #999
 }
 
 
@@ -258,22 +257,21 @@ a:focus {
 }
 
 .lists .list a {
-    color: #79a8a9;
-    display: block;
-    padding: 1em;
-    background-color: #fff;
-    border: 1px solid #aacfd0;
-    -webkit-transition: background-color .4s linear, background-color .4s linear;
-    -moz-transition: background-color .4s linear, background-color .4s linear;
-    -o-transition: background-color .4s linear, background-color .4s linear;
-    -ms-transition: background-color .4s linear, background-color .4s linear;
-    transition: background-color .4s linear, background-color .4s linear;
-    -webkit-transition: color .4s linear, color .4s linear;
-    -moz-transition: color .4s linear, color .4s linear;
-    -o-transition: color .4s linear, color .4s linear;
-    -ms-transition: color .4s linear, color .4s linear;
-    transition: color .4s linear, color .4s linear;
-    box-shadow: 0 2px 2px rgba(171, 207, 209, .4)
+   color: #337ab7;
+   display: block;
+   padding: 1em;
+   background-color: #fff;
+   -webkit-transition: background-color .4s linear, background-color .4s linear;
+   -moz-transition: background-color .4s linear, background-color .4s linear;
+   -o-transition: background-color .4s linear, background-color .4s linear;
+   -ms-transition: background-color .4s linear, background-color .4s linear;
+   transition: background-color .4s linear, background-color .4s linear;
+   -webkit-transition: color .2s linear, box-shadow .2s linear;
+   -moz-transition: color .2s linear, box-shadow .2s linear;
+   -o-transition: color .2s linear, box-shadow .2s linear;
+   -ms-transition: color .2s linear, box-shadow .2s linear;
+   transition: color .2s linear, box-shadow .2s linear;
+   box-shadow: 0 2px 5px rgba(144, 144, 144, 0.4);
 }
 
 .lists .list.selected a,
@@ -281,9 +279,9 @@ a:focus {
 .lists .list.selected a:focus,
 .lists .list a:hover,
 .lists .list a:focus {
-    background-color: inherit;
-    border-color: #999;
-    color: #777;
+   background-color: #fefefe;
+   color: #31708f;
+   box-shadow: 0 1px 1px rgba(144, 144, 144, 0.4);
 }
 
 
@@ -330,7 +328,7 @@ a:focus {
 /** footer */
 
 .footer {
-    border: 5px solid #fcda05;
+    border: 5px solid #42A95F;
     border-width: 3px 0 0;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -353,7 +351,7 @@ a:focus {
 
 .footer h4 {
     font-size: 16px;
-    color: #79a8a9;
+    color: #42A95F;
 }
 
 .footer p::after {
@@ -371,7 +369,7 @@ a:focus {
 
 .footer dt {
     padding-bottom: 15px;
-    color: #79a8a9;
+    color: #42A95F;
     font-size: 16px
 }
 
@@ -449,10 +447,10 @@ a:focus {
 
 
 .listDetails {
-    background: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #eee;
+background: #efefef;
+padding-top: 40px;
+padding-bottom: 40px;
+border-bottom: 1px solid #eee;
 }
 
 .listDetails .nav > li > a {
@@ -463,14 +461,14 @@ a:focus {
 .listDetails .nav > li > a:focus,
 .listDetails .nav > li > a:hover {
     color: #fff;
-    background-color: #fcda05;
+    background-color: #42A95F;
 }
 
 .listDetails .nav > .active > a,
 .listDetails .nav > .active > a:focus,
 .listDetails .nav > .active > a:hover {
-    color: #fff;
-    background-color: #fcda05;
+color: #fff;
+background-color: #F8A227;
 }
 
 .listDetails .content {
@@ -567,14 +565,14 @@ a:focus {
 .join .nav > li > a:focus,
 .join .nav > li > a:hover {
     color: #fff;
-    background-color: #fcda05;
+    background-color: #42A95F;
 }
 
 .join .nav > .active > a,
 .join .nav > .active > a:focus,
 .join .nav > .active > a:hover {
     color: #fff;
-    background-color: #fcda05;
+    background-color: #42A95F;
 }
 
 .join .widget-tools {
@@ -638,10 +636,30 @@ a:focus {
     margin-bottom: 40px
 }
 
-.toggle {
-    outline: 0 !important;
+
+/*  list completion  */
+li.completed {
+background: #42A95F;
 }
 
-.listNameh2 {
-    text-align:center !important;
+.heading_item{
+	margin-right: -40px;
+font-weight: bold;
+color: #555;
+}
+
+ul .nav{
+	box-shadow: 0 1px 2px rgba(144, 144, 144, 0.4);
+background: #fff;
+margin-top: 29px;
+}
+
+
+.completed a {
+color: #fff;
+}
+
+
+.toggle {
+    outline: 0 !important;
 }
