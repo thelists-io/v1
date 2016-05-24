@@ -41,7 +41,7 @@
 </section>
 
 <!-- le JS -->
-<script src="<?php echo base_url();?>assets/js/jquery-2.2.3.min.js"></script>
+
 <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url();?>assets/js/smooth-scroll.min.js"></script>
 

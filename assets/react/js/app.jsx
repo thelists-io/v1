@@ -97,7 +97,8 @@ var app = app || {};
 			var footer;
 			var main;
 			var todos = this.props.model.todos;
-                       
+                        var listHeader = this.props.model.listHeader;
+
                         var menuItems = <TodoMenu 
                                                 menus={this.props.model.menus} 
                                                 selectedCategory={this.props.model.selectedCategory} 
@@ -163,7 +164,7 @@ var app = app || {};
 
 			return (
 				<div>
-                                    <div className="col-xs-12 col-md-3 hidden-xs">
+                                    <div className="col-xs-12 col-md-3">
                                         <div className="sidebar">
                                             <div className="widget-links">
                                                 {menuItems}
@@ -176,7 +177,7 @@ var app = app || {};
                                         {socialItems}
                                             <section className="todoapp">
                                                 <header className="header">
-                                                        <h2 className="text-center">{category_name}</h2>
+                                                        <h2 className="text-center">{listHeader}</h2>
                                                         <input
                                                             className="new-todo"
                                                             placeholder="أضف أي نقطة جديدة للقائمة"

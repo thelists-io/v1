@@ -8,6 +8,13 @@
 
     <title> القوائم </title>
 
+    <script src="<?php echo base_url();?>assets/js/jquery-2.2.3.min.js"></script>
+    <script>
+    $(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+    </script>
     <!-- Bootstrap -->
     <link href="<?php echo base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,6 +32,7 @@
 
     <!-- Packages -->
     <link href="<?php echo base_url();?>assets/packages/filter/css/style.css" rel="stylesheet">
+    
     <script src="<?php echo base_url();?>assets/packages/filter/js/modernizr.js"></script>
 
     <!-- App -->
@@ -99,7 +107,7 @@
 
 </head>
 <body>
-
+<div class="se-pre-con"></div>
     <!-- Main Navigation -->
     <nav class="navbar navbar-default" role="nav">
         <div class="container">

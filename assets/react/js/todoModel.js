@@ -16,10 +16,14 @@ var app = app || {};
 	app.TodoModel = function (key, location) {
             this.key = key;
             
-            if(location[0] != 0) {
+            if(location != 0) {
                 this.todos = Utils.store(key, '', location[0]);
+                this.listHeader = this.todos[0].name;
+                this.todos = this.todos[1];
             } else {
                 this.todos = Utils.store(key);
+                this.listHeader = 'القائمة الأساسية';
+                this.todos = this.todos[1];
             } 
             
             this.menus = Utils.getMenus();
@@ -66,7 +70,7 @@ var app = app || {};
 	};
 
 	app.TodoModel.prototype.toggle = function (todoToToggle) {
-
+            
                 var isCompleted = !todoToToggle.completed;
                 Utils.setStorageData('todo_'+ todoToToggle.id, isCompleted);
                 
@@ -100,6 +104,7 @@ var app = app || {};
         
         app.TodoModel.prototype.loadResults = function (category_id) {
             this.todos = Utils.store(this.key, null, category_id);
+            this.todos = this.todos[1];
 	};
 
 	app.TodoModel.prototype.clearCompleted = function () {

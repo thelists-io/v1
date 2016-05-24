@@ -43,7 +43,8 @@ var app = app || {};
         store: function (namespace, data, cID) {
             
             var store = '';
-            
+            var currentCategoryName = '';
+            var response = '';
             if (data) {
                 $.ajax({
                     url: '/lists/save_list',
@@ -65,15 +66,17 @@ var app = app || {};
                 data: {category_id: category_id},
                 dataType: 'json',
                 success: function (data) {
-                    $.each(data, function( index, value ) {                 
+                    $.each(data.lists, function( index, value ) {                 
                         value.completed = ($this.getStorageData('todo_' + value.id) == 'true') ? true : false;
                     });
-                    store = JSON.stringify(data);
-                    //console.log(store);
+                    store = data.lists;
+                    currentCategoryName = data.category_name;
+                    response = [currentCategoryName, store];
+                    response = JSON.stringify(response);
                 }
             });
             
-            return (store && JSON.parse(store)) || [];
+            return (response && JSON.parse(response)) || [];
         },
         
         

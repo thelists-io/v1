@@ -112,16 +112,16 @@ var app = app || {};
 				<li className={classNames({
 					completed: this.props.todo.completed,
 					editing: this.props.editing
-				})}>
+				})} onClick={this.props.onToggle}>
 					<div className="view">
 						<input
                                                     className="toggle"
                                                     type={type_list}
                                                     checked={this.props.todo.completed}
-                                                    onChange={this.props.onToggle}
+                                                    
 						/>
                                                 
-                                                <label dangerouslySetInnerHTML={{__html: title}}/>
+                                                <label className="cursor" dangerouslySetInnerHTML={{__html: title}}/>
 
 						<button className="destroy" onClick={this.props.onDestroy} />
 					</div>
